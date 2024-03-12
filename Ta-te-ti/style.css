@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #afd985;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    gap:1em;
+}
+
+table{
+    width: 50vw;
+    height: 40vh;
+    background-color: rgb(220, 141, 194);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+th{
+    padding: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+tr{
+    font-size: 30px;
+    margin:0;
+}
